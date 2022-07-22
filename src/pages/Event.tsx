@@ -13,7 +13,11 @@ export const Event = () => {
   }
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div
+      className={`flex flex-col min-h-screen ${
+        isMenuOpen ? 'overflow-y-hidden h-screen' : ''
+      }`}
+    >
       <Header handlerMenu={handlerMenu} isMenuOpen={isMenuOpen} />
 
       <main className="flex flex-1 flex-col lg:flex-row">
