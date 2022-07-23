@@ -32,7 +32,7 @@ export const Subscriber = () => {
           <img src={logoImg} alt="" className="mx-auto lg:mx-0" />
 
           <h1 className="mt-8 text-[30px] lg:text-[2.5rem] leading-tight">
-            Construra uma{' '}
+            Construa uma{' '}
             <strong className="text-blue-500">aplicação completa</strong>, do
             zero, com <strong className="text-blue-500">React</strong>
           </h1>
