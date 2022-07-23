@@ -1,7 +1,6 @@
 {
     "routes": [
-        { "src": "/", "dest": "/src/pages/Subscriber.tsx" },
-        { "src": "/event", "dest": "/src/pages/Event.tsx" },
-        { "src": "/event/lesson/:slug", "dest": "/src/pages/Event.tsx" }
+        { "src": "/", "dest": "/src/pages" },
+        { "src": "/event", "dest": "/src/pages" }
     ]
 }
